@@ -35,6 +35,18 @@
           full: 'image2-full.jpg',
           thumb: 'image2-thumb.jpg'
         }
+      ],
+      reviews: [
+        {
+          stars: 5,
+          body: "I love this productttt!",
+          author: "haha@yy.com"
+        },
+        {
+          stars: 1,
+          body: "I hate this productttt!",
+          author: "boohoo@qq.com"
+        }
       ]
     },
     {
