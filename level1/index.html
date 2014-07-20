@@ -44,6 +44,24 @@
         {{review.body}}
         <cite>by: {{review.author}}</cite>
         </blockquote>
+        <form name="reviewForm">
+          <blockquote>
+            <b>Stars: {{review.stars}}</b>
+            {{review.body}}
+            <cite>by: {{review.author}}</cite>
+          </blockquote>
+          <select>
+            <option value="1">1 star</option>
+            <option value="2">2 star</option>
+            <option value="3">3 star</option>
+            <option value="4">4 star</option>
+            <option value="5">5 star</option>
+          </select>
+          <textarea></textarea>
+          <label>by:</label>
+          <input type="email" />
+          <input type="submit" value="Submit" />
+        </form>
       </div>
     </section>
   </div>
