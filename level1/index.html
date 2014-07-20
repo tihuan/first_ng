@@ -9,6 +9,7 @@
   <p>I am {{4 + 6}}</p>
   <div ng-repeat="product in store.products">
     <div ng-hide="product.soldOut">
+      <img ng-src="{{product.images[0].full}}"/>
       <h1>{{product.name}}</h1>
       <h2>{{product.price | currency}}</h2>
       <p>{{product.description}}</p>
