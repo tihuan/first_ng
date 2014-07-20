@@ -18,6 +18,9 @@
       this.current = newGallery || 0;
     };
   });
+  app.controller('ReviewController', function(){
+    this.review = {};
+  });
 
   var gems = [
     {
