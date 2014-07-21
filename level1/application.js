@@ -48,12 +48,14 @@
         {
           stars: 5,
           body: "I love this productttt!",
-          author: "haha@yy.com"
+          author: "haha@yy.com",
+          createdOn: 1405922690785
         },
         {
           stars: 1,
           body: "I hate this productttt!",
-          author: "boohoo@qq.com"
+          author: "boohoo@qq.com",
+          createdOn: 1405922690722
         }
       ]
     },
