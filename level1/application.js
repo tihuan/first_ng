@@ -26,6 +26,12 @@
       this.review = {};
     }
   });
+  app.directive("productDescription", function(){
+    return  {
+      restrict: "E",
+      templateUrl: "product-title.html"
+    };
+  });
 
   var gems = [
     {
